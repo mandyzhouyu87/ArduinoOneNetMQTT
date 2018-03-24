@@ -19,9 +19,9 @@ String wifiPASS;//WIFI密码
 
 const char* mqtt_server = "183.230.40.39";
 const int mqttport  = 6002;   //10086端口号
-const char* sbid = "26024974"; //1086设备ID
-const char* cpid = "123509"; //产品ID
-const char* jqxx = "sf123456"; //鉴权信息
+const char* sbid = ""; //1086设备ID
+const char* cpid = ""; //产品ID
+const char* jqxx = ""; //鉴权信息
 
 long lastMsg = 0;
 char msg[50];
